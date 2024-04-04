@@ -8,16 +8,31 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 35px;
 }
 
 h2 {
     font-size: 2rem;
+    text-align: center;
 }
+
+article {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
 header > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+nav {
+    border: black 2px solid;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: rgb(232, 208, 32);
 }
 
 nav ul {
@@ -27,8 +42,15 @@ nav ul {
 
 nav li {
     display: inline-block;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(73, 119, 71);
+}
 section {
     display: flex;
 }
@@ -37,8 +59,67 @@ article {
     flex: 1;
 }
 
+.brunch {
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background-color:rgba(73, 119, 71, 0.5);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+.brunch-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.brunch p {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card {
+    border: black 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+    width: auto;
+    display: flex;
+    margin-left: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-content {
+    margin-top: 0px;
+}
+
+.card-content h2 {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.card-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.card-content a {
+    color: blue;
+    margin-left: 20px;
+}
+
 footer {
     display: flex;
+    margin-top: 80px;
 }
 footer div {
     flex: 1;
