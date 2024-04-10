@@ -1,418 +1,11 @@
 body {
-  background-color: rgb(226, 218, 218);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color:rgb(226, 218, 218);
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-left: 5%;
   margin-right: 5%;
 }
-
-/* Nav responsive design min 375px start */
-
-@media (min-width: 375px) {
-   nav {
-    display: flex;
-   }
-
-   nav ul li a {
-    margin-left: -97px;
-   }
-}
-
-/* Nav responsive design min 375px end */
-
-/* Brunch responsive design min 375px start */
-
-@media (min-width: 375px) {
-    .brunch-content {
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
-      text-align: left;
-    }
-  
-    .brunch-content {
-      display: flex;
-      flex-direction: column;
-      align-items: left;
-      text-align: center;
-    }
-  
-    .brunch-content h1 {
-      text-align: center;
-      margin-left: 5px;
-      margin-top: 10px;
-    }
-    
-    .brunch-content a {
-        margin-left: 35px;
-    }
-  }
-  
-  /* Brunch responsive design min 375px end */
-  
-  /* Card responsive design min 375px start */
-   
-  @media (min-width: 375px) {
-    .highlights {
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        height: 50px;
-        margin-right: 300px;
-      }
-    
-    .card-content {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .card h2 {
-      margin-bottom: -1000px;
-      height: auto;
-    }
-  
-    .card img {
-      align-items: center;
-    }
-  }
-  
-  /* Card responsive design min 375px end */
-  
-  /* Footer responsive design min 375px start */
-  
-  
-  @media (min-width: 375px) {
-    .footer {
-        margin-top: 1200px;
-        width: auto;
-    }
-
-    footer {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      width: 450px;
-    }
-  
-    footer p {
-      text-align: center;
-      margin-left: -490px;
-      margin-top: 10px;
-      display: inline;
-    }
-  
-    footer img {
-      margin-right: 150px;
-    }
-  }
-  /* Footer responsive design min 375px end */
-
-
-
-/* Brunch responsive design min 576px start */
-
-.brunch {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-@media (min-width: 576px) {
-    .brunch-content {
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
-      text-align: left;
-    }
-
-    .brunch-content h1 {
-      text-align: center;
-      margin-left: 100px;
-      margin-top: 10px;
-    }
-
-    .brunch-content p {
-        text-align: center;
-    }
-
-    .brunch-content a {
-        margin-left: 130px;
-    }
-  }
-  
-  /* Brunch responsive design min 576px end */
-  
-  /* Card responsive design min 576px start */
-  
- 
-  
-  @media (min-width: 576px) {
-
-    .card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-    .card-content {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .card h2 {
-      margin-bottom: -1000px;
-    }
-
-    .card-content p {
-        margin: 15px;
-    }
-
-    .card-content a {
-        margin-right: -13px;
-    }
-  
-    .card img {
-      align-items: center;
-      height: 150px;
-    }
-  }
-  
-  /* Card responsive design min 576px end */
-  
-  /* Footer responsive design min 576px start */
-  
-  
-  
-  @media (min-width: 576px) {
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-    footer {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-
-    footer img {
-        margin-right: 170px;
-    }
-  
-    footer p {
-      text-align: center;
-      margin-left: -500px;
-      margin-top: 10px;
-      display: block;
-    }
-  }
-  /* Footer responsive design min 576px end */
-
-/* Brunch responsive design min 768px start */
-
-@media (min-width: 768px) {
-  .brunch-content {
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .brunch-content {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    text-align: center;
-  }
-
-  .brunch-content h1 {
-    text-align: center;
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-}
-
-/* Brunch responsive design min 768px end */
-
-/* Card responsive design min 768px start */
-
-
-
-@media (min-width: 768px) {
-    .card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-  .card-content {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .card h2 {
-    margin-bottom: -1000px;
-  }
-
-  .card img {
-    align-items: center;
-    height: 150px;
-  }
-}
-
-/* Card responsive design min 768px end */
-
-/* Footer responsive design min 768px start */
-
-
-
-@media (min-width: 768px) {
-    .footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-      
-  footer {
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-  }
-
-  footer p {
-    text-align: center;
-    margin-left: -240px;
-    margin-top: 10px;
-    display: inline;
-  }
-
-  footer img {
-    margin-right: -550px;
-  }
-}
-/* Footer responsive design min 768px end */
-
-/* Nav responsive design min 1024px start */
-
-@media (min-width: 1024px) {
-    .about-link {
-      margin-right: -5px;
-      margin-left: -40px;
-    }
-
-    .book-link {
-        margin-right: 5px;
-        margin-left: -45px;
-    }
-}
-
-/* Nav responsive design min 1024px end */
-
-/* Brunch responsive design min 1024px start */
-
-@media (min-width: 1024px) {
-    .brunch-content {
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-start;
-      text-align: left;
-    }
-  
-    .brunch-content {
-      display: flex;
-      flex-direction: column;
-      align-items: left;
-      text-align: center;
-    }
-  
-    .brunch-content h1 {
-      text-align: center;
-      margin-left: 100px;
-      margin-top: 10px;
-    }
-
-    .brunch-content a {
-        margin-left: 150px;
-    }
-  }
-  
-  /* Brunch responsive design min 1024px end */
-  
-  /* Card responsive design min 1024px start */
-  
-  .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  @media (min-width: 1024px) {
-    .card-content {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .card h2 {
-      margin-bottom: -1000px;
-    }
-  
-    .card img {
-      align-items: center;
-      height: 150px;
-    }
-  }
-  
-  /* Card responsive design min 1024px end */
-  
-  /* Footer responsive design min 1024px start */
-  
-  .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  @media (min-width: 1024px) {
-    footer {
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
-      text-align: center;
-    }
-  
-    footer p {
-      text-align: center;
-      margin-left: -140px;
-      margin-top: 10px;
-      display: inline;
-    }
-  
-    footer img {
-      margin-right: -750px;
-    }
-  }
-  /* Footer responsive design min 1024px end */
 
 h1 {
   font-size: 35px;
@@ -449,8 +42,10 @@ nav ul {
 
 nav li {
   display: inline-block;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 10px;
+  padding-right: 100px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 nav ul li a {
@@ -470,9 +65,9 @@ article {
   border-radius: 8px;
   margin-top: 35px;
   margin-bottom: 15px;
-  background-color: rgb(90, 152, 88);
+  background-color:rgb(90, 152, 88);
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
 }
 
@@ -483,21 +78,15 @@ article {
 }
 
 .brunch p {
-  font-size: 35px;
-  margin-top: -10px;
+  font-size: 25px;
+  margin-top: -5px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.brunch-content a {
-  margin-bottom: 14px;
-  font-size: 22px;
-  color: rgb(59, 59, 149);
-}
-
 .card {
   background-color: rgba(232, 208, 32, 0.9);
-  border: rgb(90, 152, 88) 2px solid;
+  border: black 1px solid;
   border-radius: 8px;
   padding: 4px;
   width: auto;
@@ -528,43 +117,19 @@ article {
 }
 
 .card-content a {
-  color: rgb(59, 59, 149);
+  color: blue;
   margin-left: 20px;
-  font-size: 20px;
-}
-
-.page-nav {
-  margin-bottom: 25px;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-main h1 {
-  margin-top: 500px;
-  margin-left: 750px;
-  text-decoration: underline;
-}
-
-.booking {
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 750px;
-  line-height: 60px;
 }
 
 footer {
   display: flex;
   margin-top: 50px;
   margin-bottom: 20px;
-  border: rgb(90, 152, 88) 2px solid;
+  border: black 2px solid;
   border-radius: 8px;
   padding: 10px;
-  background-color: rgba(247, 247, 242, 0.9);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(247, 247, 242);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 footer div {
@@ -573,13 +138,10 @@ footer div {
 }
 
 footer img {
-  margin-top: 4px;
   margin-left: 150px;
 }
 
 footer p {
-  margin-top: 15px;
-  margin-bottom: 1px;
   padding-left: 500px;
-  font-size: 25px;
+  font-size: 20px;
 }
