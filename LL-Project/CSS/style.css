@@ -74,29 +74,46 @@ article {
 .brunch-content {
   display: flex;
   flex-direction: column;
-  margin-top: 5px;
+  margin-top: 40px;
+}
+
+.brunch img {
+  display: flex;
+  flex-direction: column;
 }
 
 .brunch p {
-  font-size: 25px;
+  font-size: 35px;
   margin-top: -5px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
+.brunch-content a {
+  margin-bottom: 14px;
+  font-size: 22px;
+  color: rgb(59, 59, 149);
+}
+
 .card {
+  display: flex;  
+  height: 210px;
+  align-items: center;
   background-color: rgba(232, 208, 32, 0.9);
-  border: black 1px solid;
+  margin-top: 10px;
+  border: rgb(90, 152, 88) 2px solid;
   border-radius: 8px;
   padding: 4px;
-  width: auto;
-  display: flex;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-right: 20px;
 }
 
 .card img {
-  width: 100%;
+  width: 60%;
+  height: 220px;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  margin-left: -4px;
   border-radius: 8px;
 }
 
@@ -105,20 +122,25 @@ article {
 }
 
 .card-content h2 {
-  font-size: 25px;
-  margin-top: 5px;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
   margin-bottom: 5px;
+  margin-left: 14px;
 }
 
 .card-content p {
-  font-size: 18px;
-  margin-bottom: 10px;
-  margin-left: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-top: 1px;
+  margin-left: 15px;
+  margin-right: 25px;
+  text-align: left;
 }
 
 .card-content a {
-  color: blue;
-  margin-left: 20px;
+  color: rgb(59, 59, 149);
+  margin-left: 10px;
 }
 
 footer {
