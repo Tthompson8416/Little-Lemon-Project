@@ -145,12 +145,15 @@ article {
 
 footer {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   margin-top: 50px;
   margin-bottom: 20px;
-  border: black 2px solid;
+  margin-right: 25px;
+  border: rgb(90, 152, 88) 2px solid;
   border-radius: 8px;
-  padding: 10px;
-  background-color: rgb(247, 247, 242);
+  padding: 3px;
+  background-color: rgba(247, 247, 242, 0.9);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -165,5 +168,6 @@ footer img {
 
 footer p {
   padding-left: 500px;
-  font-size: 20px;
+  margin-left: -220px;
+  font-size: 25px;
 }
