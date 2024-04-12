@@ -239,11 +239,44 @@ footer p {
       margin-bottom: -1000px;
       height: auto;
     }
+
+    .card-content p {
+      margin-top: 1010px;
+      margin-bottom: 5px;
+    }
   
     .card img {
       width: auto;
       height: 100px;
       align-items: center;
     }
+
+    .card-content a {
+      margin-left: -35px;
+    }
+
+    /* card 375px end */
+
+    /* footer 375px start */
+    footer {
+      margin-top: 25px;
+      width: 340px;
+      height: 50px;
+    }
+
+    footer img {
+      width: 150px;
+      height: 30px;
+      margin-left: 20px;
+    }
+
+    footer p {
+      width: 150px;
+      font-size: 15px;
+      margin-left: -485px;
+        }
+    /* footer 375px end */
 }
+/* screen size max-width 375px end */
+
   
