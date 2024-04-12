@@ -390,117 +390,244 @@ footer p {
 }
 /* footer 576px end */
 
-  /* Screen size max-width 768px start */
+/* Screen size max-width 768px start */
 
-  @media screen and (max-width: 768px) {
-    nav {
-      width: 500px;
-      margin-left: 90px;
-    }
-  
-    nav li {
-      display: flex;
-      flex-direction: column;
-      margin-left: -25px;
-      padding: 0px;
-    }
-  
-    /* brunch 768px start */
-    .brunch {
-      width: 350px;
-      height: 370px;
-      margin-left: 175px;
-    }
-  
-    .brunch img {
-      width: 340px;
-      height: 200px;
-    }
-  
-    .brunch-content h1 {
-      margin-top: 180px;
-      margin-left: -350px;
-      font-size: 25px;
-      display: flex;
-    }
-  
-    .brunch-content p {
-      margin-top: -15px;
-      margin-left: -300px;
-      font-size: 22px;
-      padding-left: 5px;
-    }
-  
-    .brunch-content a {
-      margin-left: -350px;
-      margin-top: -12px;
-  
-      font-size: 15px;
-    }
-    /* brunch 768px end */
-  
-    /* card 768px start */
-    .card {
-      width: 325px;
-      height: 50px;
-      margin-left: 185px;
-    }
-  
-    .highlights {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .card-content {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .card h2 {
-      margin-bottom: -1000px;
-      height: auto;
-    }
-  
-    .card-content p {
-      margin-top: 1010px;
-      margin-bottom: 5px;
-    }
-  
-    .card img {
-      width: auto;
-      height: 100px;
-      align-items: center;
-    }
-  
-    .card-content a {
-      margin-left: -35px;
-    }
-  
-    /* card 768px end */
-  
-    /* footer 768px start */
-    footer {
-      width: 340px;
-      height: 50px;
-      margin-top: 25px;
-      margin-left: 180px;
-    }
-  
-    footer img {
-      width: 150px;
-      height: 30px;
-      margin-left: 20px;
-    }
-  
-    footer p {
-      width: 150px;
-      font-size: 15px;
-      margin-left: -485px;
-    }
+@media screen and (max-width: 768px) {
+  nav {
+    width: 500px;
+    margin-left: 90px;
   }
-  /* footer 768px end */
 
+  nav li {
+    display: flex;
+    flex-direction: column;
+    margin-left: -25px;
+    padding: 0px;
+  }
 
+  /* brunch 768px start */
+  .brunch {
+    width: 350px;
+    height: 370px;
+    margin-left: 175px;
+  }
 
+  .brunch img {
+    width: 340px;
+    height: 200px;
+  }
+
+  .brunch-content h1 {
+    margin-top: 180px;
+    margin-left: -350px;
+    font-size: 25px;
+    display: flex;
+  }
+
+  .brunch-content p {
+    margin-top: -15px;
+    margin-left: -300px;
+    font-size: 22px;
+    padding-left: 5px;
+  }
+
+  .brunch-content a {
+    margin-left: -350px;
+    margin-top: -12px;
+
+    font-size: 15px;
+  }
+  /* brunch 768px end */
+
+  /* card 768px start */
+  .card {
+    width: 325px;
+    height: 50px;
+    margin-left: 185px;
+  }
+
+  .highlights {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card h2 {
+    margin-bottom: -1000px;
+    height: auto;
+  }
+
+  .card-content p {
+    margin-top: 1010px;
+    margin-bottom: 5px;
+  }
+
+  .card img {
+    width: auto;
+    height: 100px;
+    align-items: center;
+  }
+
+  .card-content a {
+    margin-left: -35px;
+  }
+
+  /* card 768px end */
+
+  /* footer 768px start */
+  footer {
+    width: 340px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 180px;
+  }
+
+  footer img {
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+  }
+
+  footer p {
+    width: 150px;
+    font-size: 15px;
+    margin-left: -485px;
+  }
+}
+/* footer 768px end */
+/* Screen size max-width 768px end */
+
+/* Screen size max-width 1200px start */
+@media screen and (max-width: 1200px) {
+  nav {
+    width: 900px;
+    margin-left: 90px;
+  }
+
+  nav ul {
+    margin-right: 60px;
+  }
+
+  nav li {
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-right: 25px;
+    padding: 0px;
+  }
+
+  /* brunch 1200px start */
+  .brunch {
+    width: 850px;
+    height: 260px;
+    margin-left: 115px;
+  }
+
+  .brunch img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .brunch-content h1 {
+    margin-top: 10px;
+    margin-left: -50px;
+    font-size: 35px;
+    display: flex;
+  }
+
+  .brunch-content p {
+    font-size: 22px;
+    margin-top: -15px;
+    margin-left: -10px;
+    margin-right: -5px;
+
+    padding-left: 5px;
+  }
+
+  .brunch-content a {
+    font-size: 25px;
+    margin-top: 12px;
+  }
+  /* brunch 1200px end */
+
+  /* card 1200px start */
+  .card {
+    width: 800px;
+    margin-left: 135px;
+    padding: 0px;
+  }
+
+  .highlights {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-content {
+    margin-left: 150px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card h2 {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 90px;
+    margin-left: -30px;
+    padding-left: 30px;
+    height: auto;
+  }
+
+  .card-content p {
+    width: 500px;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: -160px;
+  }
+
+  .card img {
+    width: 300px;
+    height: 190px;
+    margin-left: 3px;
+  }
+
+  .card .macarons {
+    height: 205px;
+  }
+
+  .card-content a {
+    font-size: 20px;
+    margin-left: -200px;
+  }
+
+  /* card 1200px end */
+
+  /* footer 1200px start */
+  footer {
+    width: 700px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 180px;
+  }
+
+  footer img {
+    width: 200px;
+    height: 40px;
+    margin-left: 80px;
+  }
+
+  footer p {
+    width: 200px;
+    font-size: 20px;
+    margin-left: -450px;
+  }
+
+  /* footer 1200px end */
+}
