@@ -53,6 +53,11 @@ nav ul li a {
   font-size: 25px;
   color: rgb(73, 119, 71);
 }
+
+nav ul li a:hover {
+  color: rgb(59, 59, 149);
+}
+
 section {
   display: flex;
 }
@@ -76,6 +81,19 @@ article {
   margin-top: 40px;
 }
 
+.brunch-content h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  transition: 700ms ease;
+  margin-top: 15px;
+}
+
+.brunch-content h1:hover {
+  font-variation-settings: "wght" 582;
+  letter-spacing: 1px;
+  color: rgb(138, 47, 47);
+}
+
 .brunch img {
   display: flex;
   flex-direction: column;
@@ -93,6 +111,10 @@ article {
   font-size: 22px;
   color: rgb(59, 59, 149);
 }
+
+.brunch-content a:hover {
+  color: rgb(138, 47, 47);
+  }
 
 .card {
   display: flex;
@@ -140,6 +162,10 @@ article {
 .card-content a {
   color: rgb(59, 59, 149);
   margin-left: 10px;
+}
+
+.card-content a:hover {
+  color: rgb(138, 47, 47);
 }
 
 footer {
@@ -212,9 +238,9 @@ footer p {
   .brunch-content a {
     margin-left: -350px;
     margin-top: -12px;
-
     font-size: 15px;
   }
+  
   /* brunch 375px end */
 
   /* card 375px start */
